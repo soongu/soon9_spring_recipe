@@ -1,4 +1,4 @@
-package kr.co.kokono.recipe.r2_1_1;
+package kr.co.kokono.recipe.chap02.r2_1_1;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
