@@ -1,4 +1,4 @@
-package kr.co.kokono.recipe.chap02.r2_13;
+package kr.co.kokono.recipe.chap02.r2_15;
 
 import org.springframework.stereotype.Component;
 
