@@ -1,4 +1,4 @@
-package kr.co.kokono.recipe.chap03.r3_1.config;
+package kr.co.kokono.recipe.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -8,8 +8,8 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan("kr.co.kokono.recipe.chap03.r3_1")
-public class CourtConfiguration {
+@ComponentScan("kr.co.kokono.recipe.chap03")
+public class WebAppConfiguration {
 
     @Bean
     public InternalResourceViewResolver internalResourceViewResolver() {

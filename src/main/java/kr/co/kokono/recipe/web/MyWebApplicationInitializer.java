@@ -1,9 +1,9 @@
-package kr.co.kokono.recipe.chap03.r3_1.web;
+package kr.co.kokono.recipe.web;
 
-import kr.co.kokono.recipe.chap03.r3_1.config.CourtConfiguration;
+import kr.co.kokono.recipe.config.WebAppConfiguration;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
-public class CourtWebApplicationInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
+public class MyWebApplicationInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
     @Override
     protected Class<?>[] getRootConfigClasses() {
         return null;
@@ -11,7 +11,7 @@ public class CourtWebApplicationInitializer extends AbstractAnnotationConfigDisp
 
     @Override
     protected Class<?>[] getServletConfigClasses() {
-        return new Class<?>[] {CourtConfiguration.class};
+        return new Class<?>[] {WebAppConfiguration.class};
     }
 
     @Override

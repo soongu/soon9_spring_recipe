@@ -174,3 +174,11 @@ public class AppMain {
 
 }
 ```
+
+### 3-2. @RequestMapping에서 요청 매핑하기
+### 3-3. 핸들러 인터셉터로 요청 가로채기
+### 3-9. 컨트롤러에서 폼 처리하기
+```groovy
+implementation "javax.servlet.jsp:javax.servlet.jsp-api:2.3.1"
+implementation "javax.validation:validation-api:2.0.1.Final"
+```

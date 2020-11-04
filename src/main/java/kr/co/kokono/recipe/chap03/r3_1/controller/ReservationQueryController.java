@@ -1,4 +1,4 @@
-package kr.co.kokono.recipe.chap03.r3_1.web;
+package kr.co.kokono.recipe.chap03.r3_1.controller;
 
 import kr.co.kokono.recipe.chap03.r3_1.domain.Reservation;
 import kr.co.kokono.recipe.chap03.r3_1.service.ReservationService;
