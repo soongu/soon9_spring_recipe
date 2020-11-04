@@ -12,7 +12,7 @@ public class Disc extends Product {
         super(name, price);
     }
 
-    // 게터 및 세터
+
     public int getCapacity() {
         return capacity;
     }

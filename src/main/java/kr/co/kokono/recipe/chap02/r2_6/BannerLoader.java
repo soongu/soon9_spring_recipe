@@ -18,7 +18,7 @@ public class BannerLoader {
         this.banner = banner;
     }
 
-    //스프링에게 빈 생성후 이메서드를 실행하도록하는 아노테이션
+
     @PostConstruct
     public void showBanner() throws IOException {
         Files.lines(Paths.get(banner.getURI()), Charset.forName("UTF-8"))

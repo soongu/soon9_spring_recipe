@@ -21,7 +21,7 @@ public abstract class Product {
         return name;
     }
 
-    // 게터 및 세터
+
     public void setName(String name) {
         this.name = name;
     }
